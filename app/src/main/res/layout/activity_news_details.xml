@@ -19,20 +19,11 @@
         android:padding="16dp"/>
 
     <TextView
-        android:id="@+id/dateTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/descriptionTextView"
-        android:layout_marginTop="7dp"
-        android:padding="16dp"
-        android:textSize="14sp" />
-
-    <TextView
         android:id="@+id/linkTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/dateTextView"
-        android:text="Read more"
-        android:padding="16dp"/>
+        android:padding="16dp"
+        android:text="Read more" />
 
 </RelativeLayout>

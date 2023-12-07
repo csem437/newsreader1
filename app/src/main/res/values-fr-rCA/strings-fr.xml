@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <string name="app_name">BBC News</string>
+    <string name="search">Recherche</string>
+    <string name="button">BBC News</string>
+    <string name="textview">Pour les dernières nouvelles à portée de main</string>
 </resources>
