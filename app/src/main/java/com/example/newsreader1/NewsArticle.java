@@ -1,12 +1,14 @@
 package com.example.newsreader1;
+
+import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Locale;
 
 public class NewsArticle {
     private String title;
     private String link;
     private String description;
-    private Date date;
-
+    private Date date; // Changed type to Date
 
     public NewsArticle(String title, String link, String description, Date date) {
         this.title = title;
@@ -46,5 +48,14 @@ public class NewsArticle {
 
     public void setDate(Date date) {
         this.date = date;
+    }
+
+    // Additional method to get formatted date string
+    public String getFormattedDate() {
+        if (date != null) {
+            SimpleDateFormat dateFormat = new SimpleDateFormat("EEE, d MMM yyyy HH:mm:ss z", Locale.US);
+            return dateFormat.format(date);
+        }
+        return null;
     }
 }
