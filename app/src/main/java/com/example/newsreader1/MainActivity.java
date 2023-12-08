@@ -1,5 +1,8 @@
 package com.example.newsreader1;
-
+//
+// Cody Semler
+// Ron Scott
+//
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;

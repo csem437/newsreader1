@@ -1,10 +1,8 @@
 package com.example.newsreader1;
-
 import android.os.AsyncTask;
 import android.util.Log;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
-
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
@@ -14,7 +12,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Locale;
-
+//
 public class NewsUtils {
 
     public interface NewsAsyncResponse {

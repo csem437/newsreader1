@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.Date;
 import java.text.SimpleDateFormat;
 import java.util.Locale;
-
+//
 public class NewsDetailsActivity extends AppCompatActivity {
 
     @Override
