@@ -44,12 +44,11 @@ public class NewsAdapter extends ArrayAdapter<NewsArticle> {
 
             SimpleDateFormat dateFormat = new SimpleDateFormat("EEE, d MMM yyyy HH:mm:ss z", Locale.US);
             try {
-                // Format the Date object to a String
+                // Date obj to String
                 String formattedDate = dateFormat.format(newsArticle.getDate());
                 dateTextView.setText(formattedDate);
             } catch (Exception e) {
                 e.printStackTrace();
-                // Handle the formatting error appropriately
             }
 
             linkTextView.setText(newsArticle.getLink());

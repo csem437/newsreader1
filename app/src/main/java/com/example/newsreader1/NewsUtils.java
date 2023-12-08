@@ -3,7 +3,6 @@ package com.example.newsreader1;
 import android.os.AsyncTask;
 import android.util.Log;
 import org.xmlpull.v1.XmlPullParser;
-import org.xmlpull.v1.XmlPullParserException;
 import org.xmlpull.v1.XmlPullParserFactory;
 
 import java.io.InputStream;
@@ -39,7 +38,7 @@ public class NewsUtils {
             try {
                 return parseXml(downloadUrl(urls[0]));
             } catch (Exception e) {
-                Log.e("FetchNewsTask", "Error fetching news data", e);
+                Log.e("FetchNewsTask", "Error grabbing news", e);
                 return null;
             }
         }
@@ -98,7 +97,7 @@ public class NewsUtils {
                 eventType = parser.next();
             }
         } catch (Exception e) {
-            Log.e("NewsUtils", "Error parsing XML", e);
+            Log.e("NewsUtils", "Error with XML", e);
         }
 
         return newsList;
@@ -132,7 +131,7 @@ public class NewsUtils {
             SimpleDateFormat format = new SimpleDateFormat("EEE, d MMM yyyy HH:mm:ss z", Locale.US);
             return format.parse(dateString);
         } catch (ParseException e) {
-            Log.e("NewsUtils", "Error parsing date", e);
+            Log.e("NewsUtils", "Error with date", e);
             return null;
         }
     }

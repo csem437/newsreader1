@@ -1,6 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">BBC News</string>
     <string name="button">BBC News</string>
     <string name="textview">For the latest news at your fingertips</string>
     <string name="search">Search</string>
+    <string name="username">Enter your Name</string>
+    <string name="save">Save Name</string>
+    <string name="hello">Hello </string>
+    <string name="toasty">Progress bar reset, here\'s some Toast!</string>
+    <string name="snacky">Here\'s a Snack!</string>
 </resources>

@@ -4,4 +4,9 @@
     <string name="search">Recherche</string>
     <string name="button">BBC News</string>
     <string name="textview">Pour les dernières nouvelles à portée de main</string>
+    <string name="username">Entrez votre nom</string>
+    <string name="save">Enregistrer le nom</string>
+    <string name="hello">Bonjour </string>
+    <string name="toasty">Réinitialisation de la barre de progression, voici quelques Toast!</string>
+    <string name="snacky">Voici une collation!</string>
 </resources>
